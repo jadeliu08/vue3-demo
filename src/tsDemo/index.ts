@@ -1,3 +1,4 @@
+export {}
 /*
 export function handler(input: string): void { }
 * */
@@ -104,3 +105,10 @@ const dd = createColourVariant('red', 'dark');
   const my = ['Tim', 'Tony', 'Bob'] as const;
   const my = [{ name: ''}, { name: '' }] as const;
 */
+
+export interface Person {
+  readonly name: string;
+  readonly age: number;
+}
+
+

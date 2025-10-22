@@ -3,7 +3,9 @@
   "compilerOptions": {
     "listFiles": true, // 编译时控制台打印出ts文件
     "removeComments": true, // 删除注释
-    "strictNullChecks": false,
+//    "noLib": true,
+    //    "typeRoots": [], // 默认@types,从./node_modules/@types/, ../node_modules/@types/, ../../node_modules/@types/找.d.ts类型定义文件。修改后（./typings，./vendor/types）从指定的目录下找.d.ts文件
+//    "types": [], // 默认@types。["node", "jest", "express"]，./node_modules/@types/node, ./node_modules/@types/jest and ./node_modules/@types/express
     // File Layout
     // "outDir": "./dist",
 
@@ -11,7 +13,6 @@
     // See also https://aka.ms/tsconfig/module
     "module": "es6",
     "target": "ES6",
-//    "types": [""],
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],
