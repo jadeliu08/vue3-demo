@@ -1,4 +1,4 @@
-<script setup>
+<script setup vapor>
 defineProps({
   msg: {
     type: String,
